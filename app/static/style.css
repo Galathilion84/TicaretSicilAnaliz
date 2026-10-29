@@ -1,0 +1,99 @@
+/* ---------- Yazı tipleri (yerel) ---------- */
+@font-face { font-family: "Bricolage Grotesque"; font-weight: 600; font-display: swap;
+    src: url("/static/vendor/fonts/bricolage-grotesque-latin-ext-600.woff2") format("woff2");
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: "Bricolage Grotesque"; font-weight: 600; font-display: swap;
+    src: url("/static/vendor/fonts/bricolage-grotesque-latin-600.woff2") format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Bricolage Grotesque"; font-weight: 700; font-display: swap;
+    src: url("/static/vendor/fonts/bricolage-grotesque-latin-ext-700.woff2") format("woff2");
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: "Bricolage Grotesque"; font-weight: 700; font-display: swap;
+    src: url("/static/vendor/fonts/bricolage-grotesque-latin-700.woff2") format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "IBM Plex Sans"; font-weight: 400; font-display: swap;
+    src: url("/static/vendor/fonts/ibm-plex-sans-latin-ext-400.woff2") format("woff2");
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: "IBM Plex Sans"; font-weight: 400; font-display: swap;
+    src: url("/static/vendor/fonts/ibm-plex-sans-latin-400.woff2") format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "IBM Plex Sans"; font-weight: 500; font-display: swap;
+    src: url("/static/vendor/fonts/ibm-plex-sans-latin-ext-500.woff2") format("woff2");
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: "IBM Plex Sans"; font-weight: 500; font-display: swap;
+    src: url("/static/vendor/fonts/ibm-plex-sans-latin-500.woff2") format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "IBM Plex Sans"; font-weight: 600; font-display: swap;
+    src: url("/static/vendor/fonts/ibm-plex-sans-latin-ext-600.woff2") format("woff2");
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: "IBM Plex Sans"; font-weight: 600; font-display: swap;
+    src: url("/static/vendor/fonts/ibm-plex-sans-latin-600.woff2") format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+/* ---------- Renkler ---------- */
+:root {
+    --ink: #0f2a2b;        /* gazete mürekkebi */
+    --teal: #0b5c5a;       /* sicil yeşili */
+    --teal-deep: #072f2e;
+    --seal: #d6a531;       /* mühür altını */
+    --seal-hover: #e3b84d;
+    --paper: #eef1ee;
+}
+
+body { background: var(--paper); color: var(--ink); }
+h2, h3, .font-display { font-family: "Bricolage Grotesque", "IBM Plex Sans", system-ui, sans-serif; letter-spacing: -0.01em; }
+
+/* ---------- Klavye odağı ---------- */
+:focus-visible { outline: 2px solid var(--seal); outline-offset: 2px; }
+input:focus-visible, select:focus-visible { outline-offset: 0; }
+
+/* ---------- Kaydırma çubuğu ---------- */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #b9c4c0; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #8a9893; }
+
+/* ---------- Üst bant ve arama paneli ---------- */
+.app-header { background: var(--teal-deep); color: #fff; }
+.search-panel { background: var(--teal-deep); color: #d0e8e6; }
+.search-panel label { color: #d0e8e6; }
+.search-panel input, .search-panel select { background: #fff; color: var(--ink); border-color: transparent; }
+.search-panel input:focus, .search-panel select:focus { box-shadow: 0 0 0 3px rgba(214, 165, 49, .45); border-color: var(--seal); }
+
+.btn-gold { background: var(--seal); color: var(--ink); font-weight: 600; transition: background .15s, transform .1s; }
+.btn-gold:hover { background: var(--seal-hover); }
+.btn-gold:active { transform: translateY(1px); }
+.btn-gold:disabled { opacity: .6; cursor: wait; }
+.btn-ghost-dark { border: 1px solid rgba(255, 255, 255, .28); color: #fff; background: transparent; transition: background .15s; }
+.btn-ghost-dark:hover { background: rgba(255, 255, 255, .1); }
+
+/* ---------- İlan kartı (gazete kupürü) ---------- */
+.result-card { transition: border-color .15s, background-color .15s, box-shadow .15s; position: relative; overflow: hidden; }
+.result-card:hover { box-shadow: 0 1px 0 rgba(15, 42, 43, .06), 0 6px 14px -8px rgba(15, 42, 43, .25); }
+.result-card::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: transparent; transition: background .15s; }
+.result-card.active { border-color: #a4d2cf !important; background-color: #eaf4f3 !important; }
+.result-card.active::before { background: var(--seal); }
+.date-block { font-family: "Bricolage Grotesque", sans-serif; }
+
+/* ---------- Açılış paneli: gazete sütunları ---------- */
+.masthead-bg {
+    background-image: repeating-linear-gradient(90deg, transparent 0, transparent calc(33.333% - 1px), rgba(15, 42, 43, .07) calc(33.333% - 1px), rgba(15, 42, 43, .07) 33.333%);
+}
+.seal-stamp { animation: stampIn .7s cubic-bezier(.2, 1.4, .4, 1) both; transform-origin: center; }
+@keyframes stampIn {
+    from { opacity: 0; transform: scale(1.6) rotate(-14deg); }
+    to   { opacity: 1; transform: scale(1) rotate(-6deg); }
+}
+
+/* ---------- Bildirim ---------- */
+@keyframes slideInRight {
+    from { opacity: 0; transform: translateX(100%); }
+    to   { opacity: 1; transform: translateX(0); }
+}
+.toast-item { animation: slideInRight 0.25s ease-out forwards; }
+
+@media (prefers-reduced-motion: reduce) {
+    .seal-stamp, .toast-item, .animate-spin, .animate-pulse { animation: none !important; }
+    * { transition-duration: .01ms !important; }
+}

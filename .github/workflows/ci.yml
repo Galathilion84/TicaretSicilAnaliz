@@ -1,0 +1,20 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      # Ağır OCR paketleri (ddddocr, rapidocr) testler için gerekmez; import'ları tembeldir.
+      - run: pip install fastapi "uvicorn[standard]" pydantic python-dotenv jinja2 httpx beautifulsoup4 pillow pymupdf google-genai truststore keyring pytest pytest-asyncio ruff
+      - run: ruff check app tests
+      - run: pip install bandit && bandit -r app run_server.py -ll -q
+      - run: pytest -q

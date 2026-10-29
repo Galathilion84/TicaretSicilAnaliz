@@ -1,0 +1,32 @@
+# Environment variables & secrets (CRITICAL)
+.env
+.env.*
+!.env.example
+
+# Python virtual environment & bytecode
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Application data & caches
+temp_data/
+data/
+*.log
+
+# Test & debug scratch files
+debug_*.html
+test_*.html
+*.pdf
+!tests/fixtures/*.pdf
+scratch/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.pytest_cache/
+.ruff_cache/
